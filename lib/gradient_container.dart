@@ -18,7 +18,11 @@ class GradientContainer extends StatelessWidget {
           ],
         ),
       ),
-      child: Centered("The weather is bad."),
+      child: Center(
+        child: Image.asset('assets/images/dice-2.png',
+        width: 200,
+        ),
+      ),
     );
   }
 }
